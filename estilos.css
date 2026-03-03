@@ -22,9 +22,26 @@ a {
 }
 
 h3{
+
     font-size: 20px;
-    color: green;
-    text-align: center;
+    
+  }
+
+.botones {
+
+    color: whitesmoke;
+    background-color: darkgreen;
+    width: 650px;
+    height: 40px;
+    /* padding-left: 30px; Esto distancia el texto del borde izquierdo de la caja */
+    /* padding-top: Esto distancia el texto del borde superior de la caja */
+    margin: 25px auto 25px auto; /* Esto marca los márgenes de cada lado en sentido de las agujas del reloj */
+
+    /* Nuevas propiedades para centrar: */
+    display: flex;           /* Convierte al div en un contenedor flexible */
+    align-items: center;     /* Centra el contenido verticalmente */
+    justify-content: center; /* Centra el contenido horizontalmente */
+
 }
 
 p{
