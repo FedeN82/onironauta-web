@@ -1,7 +1,12 @@
 
 /* Configuramos el color de fondo para toda la página */
+
 body {
-    background-color: maroon;
+    background-color: maroon; /* El color que va a teñir */
+    background-image: url("fondo-2.jpeg"); /* Asegurate que la extensión sea .jpg o .jpeg según tu archivo */
+    /* background-size: cover; */
+    background-attachment: fixed;
+    background-blend-mode: multiply; /* ESTA es la clave */
 }
 
 
@@ -14,6 +19,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 160px;
 }
 
 /* Esto quita el subrayado de los enlaces que envuelven a tus h3 */
@@ -31,8 +37,10 @@ h3{
 
     color: whitesmoke;
     background-color: darkgreen;
-    width: 650px;
+    width: 670px;
     height: 40px;
+    border-radius: 0px 50px 50px 50px;
+    box-shadow: 5px 5px 10px 3px black; /* X - Y - difuminado - espaciado - color */
     /* padding-left: 30px; Esto distancia el texto del borde izquierdo de la caja */
     /* padding-top: Esto distancia el texto del borde superior de la caja */
     margin: 25px auto 25px auto; /* Esto marca los márgenes de cada lado en sentido de las agujas del reloj */
