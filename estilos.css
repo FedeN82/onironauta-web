@@ -2,17 +2,33 @@
 /* Configuramos el color de fondo para toda la página */
 
 body {
-    background-color: maroon; /* El color que va a teñir */
-    background-image: url("fondo-2.jpeg"); /* Asegurate que la extensión sea .jpg o .jpeg según tu archivo */
-    /* background-size: cover; */
+
+    font-family: 'Source Sans 3', sans-serif;
+    background-color: maroon;
+    background-image: url("fondo-2.jpeg");
     background-attachment: fixed;
-    background-blend-mode: multiply; /* ESTA es la clave */
+    background-blend-mode: multiply;
+
 }
 
 
 h1, h2{
+
+    font-family: 'EB Garamond', serif;
+    font-weight: 500; 
+    font-style: italic; /* Aquí es donde aparece el trazo caligráfico */
     color: white;
     text-align: center;
+    font-size: 2.5em; /* Ajustamos el tamaño para que sea legible y estético */
+
+}
+
+.amp {
+
+    font-family: 'Source Sans 3', sans-serif; /* Usamos la otra fuente que ya cargamos */
+    font-style: italic; /* Le quitamos la cursiva solo a este símbolo */
+    font-weight: 400;
+    
 }
 
 img {
@@ -29,7 +45,10 @@ a {
 
 h3{
 
-    font-size: 20px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    letter-spacing: 0.5px;
     
   }
 
